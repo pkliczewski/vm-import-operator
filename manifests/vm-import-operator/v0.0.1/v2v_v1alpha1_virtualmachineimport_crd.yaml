@@ -94,6 +94,11 @@ spec:
                       type: array
         status:
           properties:
+            phase: ""
+            conditions: ""
+            targetVersion: "?"
+            observedVersion: "?"
+            operatorVersion: "?"
   version: v1alpha1
   versions:
   - name: v1alpha1
